@@ -71,6 +71,8 @@
       <artifactId>opentracing-spring-jaeger-starter</artifactId>
       <version>0.2.2</version>
     </dependency>-->
+
+    <!-- Jaeger Tracing Dependencies -->
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-actuator</artifactId>
@@ -88,6 +90,7 @@
       <artifactId>opentelemetry-exporter-otlp</artifactId>
     </dependency>
     <dependency>
+  <!-- till here -->
       <groupId>net.logstash.logback</groupId>
       <artifactId>logstash-logback-encoder</artifactId>
       <version>5.2</version>
